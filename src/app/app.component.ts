@@ -3,13 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>
-      Welcome to {{ title }}
+    <h1 class="app-title">
+      Isaiah's {{ title }}
     </h1>
-    <app-input-button-unit></app-input-button-unit>
+
+    <app-list-manager></app-list-manager>
   `,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Isaiah\'s Final Project';
+  title = 'Final Project';
 }
